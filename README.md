@@ -1,6 +1,7 @@
 # Natural Language Processing - Unsupervised Topic Modeling with Reddit Posts
-[Full Notebook](NLP-Reddit.ipynb)
-[Results Visualization!](pyLDAvis-shortcut.ipynb)
+
+[Full Notebook - NLP-Reddit](NLP-Reddit.ipynb) <br>
+[Results Visualization - pyLDAvis-shortcut](pyLDAvis-shortcut.ipynb)
 
 ### Abstract:
 In this project I took advantage of the Google Cloud Suite to analyze topics of Reddit users' self-posts resulting in segmented user groups. This could serve marketers and allow them to group people by interests based on their text data and use these segmentations to target advertising efforts. After trying various methods, I concluded with Latent Dirichlet Allocation to find meaningful topics.
@@ -32,61 +33,67 @@ With further effort, I could observe more specific subreddits or users and look 
 
 ### Results:
 Here are the top 30 words for the learned topics from Latent Dirichlet Allocation:
-*Label (Topic #, Tokens%): Top Words Contributing to Topics*
+
+*Label (Topic #, Tokens%): Top Words Contributing to Topics* <br>
 *L.1: Hidden Topic*
 
-Spanish Stopwords (0, 1%):
-que, los, con, por, las, para, del, una, como, podemos, pol, pero, psoe, sus, este, nos, espa, porque, todo, tica, esta
-L.1: Spanish Stopwords
 
-Health Products / Food (1, 5%): cream, oil, water, food, use, make, much, used, well, skin, first, good, eat, two, new, ship, using, made, small, light, space, little, great, think, need, bit, pretty, red, weight, something
-L.1: Food/ Diet
+Spanish Stopwords (0, 1%):
+ - que, los, con, por, las, para, del, una, como, podemos, pol, pero, psoe, sus, este, nos, espa, porque, todo, tica, esta
+ - L.1: Spanish Stopwords
+
+Health Products / Food (1, 5%):
+ - cream, oil, water, food, use, make, much, used, well, skin, first, good, eat, two, new, ship, using, made, small, light, space, little, great, think, need, bit, pretty, red, weight, something
+ - L.1: Food/ Diet
 
 Gaming/ Internet (2, 9.9%):
-game, games, xbox, gameplay, play, dlc, playing, console, controller, screen, demo, linux, ps4, files, vive, nintendo, developers, settings, device, install, devs, system, multiplayer, zelda, oculus, dev, servers, mode, steam, bass
-L.1: Gaming/ Technology
+ - game, games, xbox, gameplay, play, dlc, playing, console, controller, screen, demo, linux, ps4, files, vive, nintendo, developers, settings, device, install, devs, system, multiplayer, zelda, oculus, dev, servers, mode, steam, bass
+ - L.1: Gaming/ Technology
 
-Empathy/ Social (3, 19.3%): want, feel, think, going, never, life, things, much, day, got, years, said, something, cant, friends, good, told, still, love, say, back, make, way, always, family, first, see, well, since
-L.1: Family, Mental Issues
+Empathy/ Social (3, 19.3%):
+ - want, feel, think, going, never, life, things, much, day, got, years, said, something, cant, friends, good, told, still, love, say, back, make, way, always, family, first, see, well, since
+ - L.1: Family, Mental Issues
 
 Politics/ Culture/ Global (4, 7%):
-government, world, women, men, believe, may, war, think, country, state, way, church, make, say, right, white, american, see, states, however, human, fact, history, must, change, power, system, god, control, political
-L.1: Global (Politics)/ Religion
+ - government, world, women, men, believe, may, war, think, country, state, way, church, make, say, right, white, american, see, states, however, human, fact, history, must, change, power, system, god, control, political
+ - L.1: Global (Politics)/ Religion
 
-Social/ Storytelling (5, 12.5%): back, around, said, got, room, went, night, door, see, little, right, still, head, started, going, first, day, took, way, looked, away, came, left, two, face, something, hand, house, look, felt
-L.1: NSFW! Erotic Writing
+Social/ Storytelling (5, 12.5%):
+ - back, around, said, got, room, went, night, door, see, little, right, still, head, started, going, first, day, took, way, looked, away, came, left, two, face, something, hand, house, look, felt
+ - L.1: NSFW! Erotic Writing
 
-Books/ Music (6, 2.8%): chapter, world, song, music, table, album, links, previous, synopsis, life, source, contents, songs, new, raw, translated, search, post, man, day, novel, announcement, years, discussion, story, john, band, updates, martial, author
-L.1: /r/noveltranslations, Random
+Books/ Music (6, 2.8%):
+ - chapter, world, song, music, table, album, links, previous, synopsis, life, source, contents, songs, new, raw, translated, search, post, man, day, novel, announcement, years, discussion, story, john, band, updates, martial, author
+ - L.1: /r/noveltranslations, Random
 
 Gaming/ Sports (7, 3.1%):  
-tournament, logo, team, match, teams, league, matches, game, players, win, games, season, round, play, player, 2016, week, top, winner, points, best, event, map, group, played, last, stream, gaming, day, first
-L.1: eSports, League of Legends
+ - tournament, logo, team, match, teams, league, matches, game, players, win, games, season, round, play, player, 2016, week, top, winner, points, best, event, map, group, played, last, stream, gaming, day, first
+ - L.1: eSports, League of Legends
 
 Career (8, 7.8%):
-company, money, work, year, job, years, need, pay, new, back, going, day, take, car, help, make, want, working, month, well, two, first, got, much, week, since, school, days, last, months
-L.1: Financials/ Career
+ - company, money, work, year, job, years, need, pay, new, back, going, day, take, car, help, make, want, working, month, well, two, first, got, much, week, since, school, days, last, months
+ - L.1: Financials/ Career
 
 Biblical/ War (9, 6.1%):
-man, death, lord, back, first, see, king, think, dead, world, way, two, well, battle, men, war, dark, father, fight, still, god, kill, everything, killed, life, made, end, come, never, name
-L.1: Game of Thrones
+ - man, death, lord, back, first, see, king, think, dead, world, way, two, well, battle, men, war, dark, father, fight, still, god, kill, everything, killed, life, made, end, come, never, name
+ - L.1: Game of Thrones
 
 Entertainment (10, 2.8%):  
-episode, think, show, season, character, trump, see, vote, story, characters, first, series, book, movie, much, good, going, well, thats, bernie, way, make, something, hillary, read, great, hes, love, episodes, want
-L.1: Democrats/ Election
+ - episode, think, show, season, character, trump, see, vote, story, characters, first, series, book, movie, much, good, going, well, thats, bernie, way, make, something, hillary, read, great, hes, love, episodes, want
+ - L.1: Democrats/ Election
 
 Trading (11, 2.4%):
-card, price, windows, shipping, purchase, amazon, pokemon, cpu, buy, box, key, sale, gift, item, case, pro, items, cards, power, 100, giveaway, pay, build, bitcoin, available, 2016, pack, keys, stock, new
-L.1: Computer Rigs, Bitcoin
+ - card, price, windows, shipping, purchase, amazon, pokemon, cpu, buy, box, key, sale, gift, item, case, pro, items, cards, power, 100, giveaway, pay, build, bitcoin, available, 2016, pack, keys, stock, new
+ - L.1: Computer Rigs, Bitcoin
 
 Sports (12, 3.7%):
-scores, ball, score, game, icon, bar, line, field, center, fielder, spacer, rbi, sprite6, 2016, goal, left, era, fly, drive, 2nd, right, season, year, run, first, team, big, top, play, two
-L.1: Sports
+ - scores, ball, score, game, icon, bar, line, field, center, fielder, spacer, rbi, sprite6, 2016, goal, left, era, fly, drive, 2nd, right, season, year, run, first, team, big, top, play, two
+ - L.1: Sports
 
 Reddit-Meta/ Community (13, 6.5%):
-thread, link, posts, subreddit, comment, post, please, new, questions, want, help, reddit, free, community, edit, week, comments, see, make, may, june, discussion, use, rules, sub, everyone, check, information, page, ask
-L.1: Posting Meta
+ - thread, link, posts, subreddit, comment, post, please, new, questions, want, help, reddit, free, community, edit, week, comments, see, make, may, june, discussion, use, rules, sub, everyone, check, information, page, ask
+ - L.1: Posting Meta
 
 Gaming (Card/ MMORPG) (14, 7.9%):
-damage, deck, weapon, enemy, armor, level, use, game, attack, good, hit, make, hero, kill, skill, speed, weapons, much, team, play, card, ability, players, turn, fire, high, first, take, range, cards
-L.1: Hearthstone, League of Legends
+ - damage, deck, weapon, enemy, armor, level, use, game, attack, good, hit, make, hero, kill, skill, speed, weapons, much, team, play, card, ability, players, turn, fire, high, first, take,  range, cards
+ - L.1: Hearthstone, League of Legends
