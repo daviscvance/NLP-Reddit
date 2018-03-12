@@ -1,7 +1,9 @@
 # Natural Language Processing - Unsupervised Topic Modeling with Reddit Posts
 
 [Full Notebook - NLP-Reddit](NLP-Reddit.ipynb) <br>
-[Results Visualization - pyLDAvis-shortcut](pyLDAvis-shortcut.ipynb)
+[Results Visualization - pyLDAvis-shortcut](pyLDAvis-shortcut.ipynb) <br>
+[Slides - TMReddit](TMReddit.pdf)
+
 
 ### Abstract:
 In this project I took advantage of the Google Cloud Suite to analyze topics of Reddit users' self-posts resulting in segmented user groups. This could serve marketers and allow them to group people by interests based on their text data and use these segmentations to target advertising efforts. After trying various methods, I concluded with Latent Dirichlet Allocation to find meaningful topics.
