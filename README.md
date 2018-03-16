@@ -94,7 +94,7 @@ Sports (12, 3.7%):
 
 Reddit-Meta/ Community (13, 6.5%):
  - thread, link, posts, subreddit, comment, post, please, new, questions, want, help, reddit, free, community, edit, week, comments, see, make, may, june, discussion, use, rules, sub, everyone, check, information, page, ask
- - L.1: Posting Meta
+ - L.1: Theads/ (Meta)
 
 Gaming (Card/ MMORPG) (14, 7.9%):
  - damage, deck, weapon, enemy, armor, level, use, game, attack, good, hit, make, hero, kill, skill, speed, weapons, much, team, play, card, ability, players, turn, fire, high, first, take,  range, cards
