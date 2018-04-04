@@ -34,6 +34,8 @@ Using Natural Language Processing methods, I was able to train a Latent Dirichle
 With further effort, I could observe more specific subreddits or users and look at sentiment analysis, similarity metrics, and add a temporal aspect to the analysis to view things as they change over time. N-grams could increase the semantic value in documents to extract deeper information, but would require more parallelized computing. A good next step could also be implementing a flask app for building segments of users with these 15 topics to show how many users would fall into a certain bucket given adjustments to the topic probabilities.
 
 ### Results:
+![PyLDAvis](PyLDAvis_.png "Results")
+
 Here are the top 30 words for the learned topics from Latent Dirichlet Allocation:
 
 *Label (Topic #, Tokens%): Top Words Contributing to Topics* <br>
